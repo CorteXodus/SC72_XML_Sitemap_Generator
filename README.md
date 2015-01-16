@@ -1,4 +1,4 @@
-SitecoreSitemapXML
+Sitecore XML Sitemap Generator
 ==================
 
-The Sitemap XML module generates the Sitemap compliant with the schema defined by sitemaps.org and submits it to search engines. 
+This module generates a Sitemap compliant with the schema defined by sitemaps.org on-demand and can also submits that sitemap to search engines defined in the module's settings.
