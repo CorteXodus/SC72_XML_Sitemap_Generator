@@ -1,0 +1,254 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>2015-01-16_SitemapManager</PackageName>
+      <Author>David Raleigh Smith</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Sitemap XML/{3BF9EE49-E693-45FE-B10D-D5D684484519}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap configuration/{B1D42AAC-82EF-43EF-9EEA-784F655B8F04}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap configuration/Configuration/{4D81B455-5970-4CCE-9C90-D797F19C8A00}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap configuration/Configuration/Enabled templates/{1452D535-BA8B-4A66-9A87-67D05A6E2058}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap configuration/Data/{AEEFC911-1513-4C35-B212-9299CDCA253F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap configuration/Data/Search engines/{6BF47032-530C-4DF3-9B29-0849E0990319}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap Extension/__Standard Values/{355582EB-1D8D-4B5D-81C3-97AEC116DEDE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap Extension/{4CF93294-D092-48D4-9460-AE83312BB71D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap Extension/Sitemap Settings/{620408A6-2B37-4C2F-8300-63180158B624}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap Extension/Sitemap Settings/Change Frequency/{B40B8410-62D9-4676-AF7D-F07E2B30528E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap Extension/Sitemap Settings/Include in Sitemap/{598A37FA-CF21-4040-A4DF-0A66F3CD5EA2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap Extension/Sitemap Settings/Priority/{B0702152-1575-4C3F-B743-BB048ECD42B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap searchengine/{122FF533-9564-4ADA-A1C8-E7B1385B89DE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap searchengine/Data/{5CFBD092-F6A8-4FED-A0BF-5B94B0CECB00}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sitemap XML/Sitemap searchengine/Data/HttpRequestString/{8D87E400-2450-4CDE-91B7-ED2F8183F909}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>SitemapManagerTemplates</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/User Defined/BasicText/__Standard Values/{D53E32DB-6A04-4AF1-A600-0084ED2C997A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/BasicText/{CE60FD38-6981-4C9E-8616-6765EC180995}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/BasicText/Data/{FD441508-F8C5-4CDB-A467-46DC86E82A3B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/BasicText/Data/Text/{E5E06006-80FA-4F5E-AD66-0ED52DB1C57D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/BasicText/Data/Value/{695F4110-99AA-4FF0-A87B-453B05C32BA4}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>BasicTextTemplate</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/{4352F139-FE0D-4258-94E0-772755DB6D6F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/{4366BAB7-003C-4EC8-9280-EDA68C1D8E2E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/ChangeFrequencyList/{D5F437DB-A03A-458A-A9F9-3C51107B6ADB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/ChangeFrequencyList/Always/{71EDDB3C-C9CA-4ED5-B6AA-D9FC5C53BFE4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/ChangeFrequencyList/Daily/{0BBA327D-2BCA-4FA1-A6DF-89038A66E430}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/ChangeFrequencyList/Hourly/{31B0627B-0967-4372-85DB-BE3058B40FBC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/ChangeFrequencyList/Monthly/{FB8562EE-19E4-404A-A402-2F6C98D1CF5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/ChangeFrequencyList/Never/{F6EE6C2E-3BFC-4B6F-A77B-6492F9B63F50}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/ChangeFrequencyList/Weekly/{50C98715-89AB-4BA9-BA3E-BF215D18329F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/ChangeFrequencyList/Yearly/{58DEF09A-83C6-42FC-8E99-9DFE25D6A580}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/Sitemap configuration/{2316437B-0EDB-4BFE-B02C-ACF14707C0B4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/Sitemap configuration/Bing/{264439C6-E802-4E59-96F2-17CC7669BB43}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/Sitemap configuration/Google/{41ECB6BD-ADE0-474E-82E6-B104AD4C6ADC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/Sitemap configuration/Live search/{3B4FF72D-C4C1-4CB1-B2CB-679669FD1310}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/SitemapManager/SitemapSettings/Sitemap configuration/Yahoo/{B1549268-0C35-4F80-ACA2-A66979A130C5}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>SitemapManagerModuleSettings</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Sitemap.XML.dll</x-item>
+        <x-item>/bin/Sitemap.XML.pdb</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Assembly</Name>
+    </xfiles>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/SitemapXML.config</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>ConfigurationFile</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Validation Rules/Field Rules/Custom/{D5216087-D950-4A3B-B095-99E44E6B7559}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Validation Rules/Field Rules/Custom/SitemapManager/{11F9E798-9452-4EBA-8828-7D2FD687E8CF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Validation Rules/Field Rules/Custom/SitemapManager/Sitemap Priority Field Range/{8A885290-DA1E-48B8-9B99-A7A35DF64BA1}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>CustomFieldValidator</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/SitemapManager/{931B9990-F327-4234-A0DB-7CA7E87D3BCE}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Documents and settings/All users/Start menu/Programs/Sitemap Tools/{CAD7BE7E-D383-4D5E-88B7-BB971CBF6394}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Documents and settings/All users/Start menu/Programs/Sitemap Tools/Sitemap Manager/{7388A1AC-40A0-413B-813B-C4597DB94462}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Application Entries</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/layout/Layouts/Applications/SitemapManager/{D854F540-5179-40B8-BCBF-AFBFA64E9D5E}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>ApplicationLayoutItem</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/sitecore modules/Shell/sitemap XML/SitemapManager.xml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>ApplicationXML</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
