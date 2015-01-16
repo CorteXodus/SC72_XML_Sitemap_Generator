@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <SitemapManager>
+    <FormPage Height="300px">
+      <CodeBeside Type="Sitecore.Modules.SitemapXML.SitemapManagerForm,Sitemap.XML"/>
+      <Panel ID="MainPanel" Height="100%">
+        <Border Background="white" Height="100%" Style="padding: 0px 50px 0px 50px;">
+          <Border Height="10px">
+          </Border>
+          <Literal Text="Use this button to rebuild the sitemap from currently published content."/>
+          <Border Height="10px">
+          </Border>
+          <Border>
+            <Button ID="RefreshButton" Header="Refresh sitemap" ToolTip="Refresh the sitemap file"/>
+          </Border>
+          <Border Height="20px">
+            <Literal Text="&lt;hr /&gt;" />
+          </Border>
+          <Literal Text="Use this button to have the sitemap submitted to the search engines specified by the sitemap module's configuration item." />
+          <Border Height="10px">
+          </Border>
+          <Border>
+            <Button ID="SubmitToEnginesButton" Header="Submit sitemap" ToolTip="Submit the sitemap file to search engines"/>
+          </Border>
+          <Border Height="10px">
+            <Literal Text="&lt;hr /&gt;" />
+          </Border>
+          <Border>
+            <Literal Text="Please Note that clicking &quot;Refresh sitemap&quot; involves significant processing time! Your window will not respond during that time. " />
+          </Border>
+          <Border>
+            <Literal ID="Message" />
+          </Border>
+          <Border Height="20px" />
+        </Border>
+      </Panel>
+    </FormPage>
+  </SitemapManager>
+</control>
