@@ -8,5 +8,7 @@ Much of the code for this project was derived from the "Sitemap XML" project pro
 Now, instead of being tied to publishing, the XML sitemap file is only generated on-demand, and submission to search engines is handled the same way. I’ve also added in some algorithmic approaches to determining change frequency and priority level nodes for URLs as well as an extension template which provides a way for users to manually define the following:
 
 1) Checkbox to set whether the item is included in sitemap
+
 2) Dropdown selector to manually set change frequency
+
 3) Field to enter priority level along with a corresponding field validation rule.
