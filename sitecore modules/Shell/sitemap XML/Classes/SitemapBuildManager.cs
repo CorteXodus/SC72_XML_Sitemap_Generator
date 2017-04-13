@@ -35,6 +35,8 @@ using System.Text;
 using System.Linq;
 using System.Collections.Specialized;
 using System.Collections;
+using System.Globalization;
+
 using Sitemap.XML.Helpers;
 
 namespace Sitecore.Modules.SitemapXML
@@ -66,6 +68,12 @@ namespace Sitecore.Modules.SitemapXML
         public SitemapBuildManager()
         {
             m_Sites = SitemapManagerConfiguration.GetSites();
+
+            System.Globalization.CultureInfo customCulture = (System.Globalization.CultureInfo)System.Threading.Thread.CurrentThread.CurrentCulture.Clone();
+            customCulture.NumberFormat.NumberDecimalSeparator = ".";
+
+            System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
+
             foreach (DictionaryEntry site in m_Sites)
             {
                 BuildSiteMap(site.Key.ToString(), site.Value.ToString());
@@ -139,7 +147,7 @@ namespace Sitecore.Modules.SitemapXML
             DateTime itemLastModDate = item.Statistics.Updated;
             TimeSpan ts = currentDateTime - itemLastModDate;
             int daysSinceLastUpdate = ts.Days;
-
+            
             string changeFrequency = ChangeFrequency.weekly.ToString();
 
             //Check the item's priority field for a user-set value
@@ -168,7 +176,7 @@ namespace Sitecore.Modules.SitemapXML
             /***************************************************************/
             //Set last modification date
             
-            string lastModDate = HtmlEncode(itemLastModDate.ToString("yyyy-MM-ddTHH:mm:sszzz"));
+            string lastModDate = HtmlEncode(itemLastModDate.ToString("yyyy-MM-dd"));
 
             /***************************************************************/
 
@@ -180,14 +188,17 @@ namespace Sitecore.Modules.SitemapXML
             XmlNode locNode = doc.CreateElement("loc");
             urlNode.AppendChild(locNode);
             locNode.AppendChild(doc.CreateTextNode(rawUrl));
-            
-            XmlNode lastmodNode = doc.CreateElement("lastmod");
-            urlNode.AppendChild(lastmodNode);
-            lastmodNode.AppendChild(doc.CreateTextNode(lastModDate));
 
+            if (itemLastModDate != DateTime.MinValue)
+            {
+                XmlNode lastmodNode = doc.CreateElement("lastmod");
+                urlNode.AppendChild(lastmodNode);
+                lastmodNode.AppendChild(doc.CreateTextNode(lastModDate));
+            }
+            
             XmlNode priorityNode = doc.CreateElement("priority");
             urlNode.AppendChild(priorityNode);
-            priorityNode.AppendChild(doc.CreateTextNode(priorityValue.ToString("0.0")));
+            priorityNode.AppendChild(doc.CreateTextNode(priorityValue.ToString("0.0", CultureInfo.InvariantCulture)));
 
             XmlNode changeFreqNode = doc.CreateElement("changefreq");
             urlNode.AppendChild(changeFreqNode);
