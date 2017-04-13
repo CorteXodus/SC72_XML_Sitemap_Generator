@@ -68,12 +68,7 @@ namespace Sitecore.Modules.SitemapXML
         public SitemapBuildManager()
         {
             m_Sites = SitemapManagerConfiguration.GetSites();
-
-            System.Globalization.CultureInfo customCulture = (System.Globalization.CultureInfo)System.Threading.Thread.CurrentThread.CurrentCulture.Clone();
-            customCulture.NumberFormat.NumberDecimalSeparator = ".";
-
-            System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
-
+            
             foreach (DictionaryEntry site in m_Sites)
             {
                 BuildSiteMap(site.Key.ToString(), site.Value.ToString());
