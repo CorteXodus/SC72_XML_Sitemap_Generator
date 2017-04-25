@@ -170,8 +170,8 @@ namespace Sitecore.Modules.SitemapXML
 
             /***************************************************************/
             //Set last modification date
-            
-            string lastModDate = HtmlEncode(itemLastModDate.ToString("yyyy-MM-dd"));
+
+            string lastModDate = HtmlEncode(itemLastModDate.ToString("yyyy-MM-ddTHH:mm:sszzz"));
 
             /***************************************************************/
 
